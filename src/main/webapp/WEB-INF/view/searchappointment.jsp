@@ -24,23 +24,23 @@
 <%@ include file="./components/navbar.jsp"%>
 <div class="container-fluid">
   <div class="row mt-4">
-       <form class="form-inline ml-5" action="searchappointmentbyid">
+       <form class="form-inline ml-2" action="searchappointmentbyid">
           <div class="form-group">
-            <label for="inputPassword2" class="text-color"><h4>Search Appointment By Id</h4></label>
-            <input type="number" class="form-control ml-3" id="inputPassword2" name="appointmentid" placeholder="Enter Appointment Id..">
+            <label for="appointmentid" class="text-color"><h4>Search Appointment By Id</h4></label>
+            <input type="number" class="form-control ml-3" id="appointmentid" name="appointmentid" placeholder="Enter Appointment Id..">
           </div>
           <button type="submit" class="btn text-color custom-bg ml-2">Search</button>
        </form>
-       <form class="form-inline mt-1" action="searchappointmentbypatientname">
+      <form class="form-inline mt-1" action="searchappointmentbypatientname">
           <div class="form-group">
-            <label for="inputPassword2" class="text-color ml-5"><h4>Search Appointment By Patient name</h4></label>
-            <input type="text" class="form-control ml-3" id="inputPassword2" name="patientname" placeholder="Enter Patient name..">
+              <label for="patientname" class="text-color ml-5"><h4>Search Appointment By Patient name</h4></label>
+              <input type="text" class="form-control ml-3" id="patientname" name="patientname" placeholder="Enter Patient name..">
           </div>
           <button type="submit" class="btn text-color custom-bg ml-2">Search</button>
-       </form>
+      </form>
         <form class="form-inline mt-1" action="searchappointmentbydate">
           <div class="form-group">
-            <label for="inputPassword2" class="text-color ml-5"><h4>Search Appointment By Date</h4></label>
+            <label for="inputPassword2" class="text-color ml-2"><h4>Search Appointment By Date</h4></label>
             <input type="text" class="form-control ml-3" id="inputPassword2" name="appointmentdate" placeholder="Enter Date..">
           </div>
           <button type="submit" class="btn text-color custom-bg ml-2">Search</button>

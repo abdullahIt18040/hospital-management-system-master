@@ -187,8 +187,8 @@
         <div class="container text-center">
         <p style="font-size:23px;">
             <b>
-                <img src="resources/images/phonee.png" style="width:27px;" alt="img">+91 8767663594 / +91 7304353428<br>
-                <img src="resources/images/emaill.png" style="width:29px;" alt="img">mjmuradali31@gmail.com
+                <img src="resources/images/phonee.png" style="width:27px;" alt="img">01784646656/ 01521122140<br>
+                <img src="resources/images/emaill.png" style="width:29px;" alt="img">abdullahit18040@gmail.com
             </b>
         </p>
         </div>

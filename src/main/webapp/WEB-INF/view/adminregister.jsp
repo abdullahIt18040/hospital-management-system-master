@@ -12,7 +12,7 @@
 <%@ include file="./components/navbar.jsp"%>
 <div class="container-fluid">
   <div class="row mt-2">
-       <div class="col-md-4 offset-md-4 admin" >
+       <div class="col-md- offset-md-4 admin" >
             <div class="card">
                 <%@ include file="./components/message.jsp"%>
                 <div class="card-body px-5">
@@ -21,60 +21,60 @@
             <form action="adminregister" method="post">
             <div class="row">
                  <div class="form-group">
-                     <label for="name">First Name</label>
-                     <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" name="firstname" placeholder="Enter first name.." required>
+                     <label for="firstname">First Name</label>
+                     <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" name="firstname" placeholder="Enter first name.." required>
                  </div>
                  
                   <div class="form-group ml-4">
-                     <label for="name">Last Name</label>
-                     <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp" name="lastname" placeholder="Enter last name.." required>
+                     <label for="lastname">Last Name</label>
+                     <input type="text" class="form-control" id="lastname" aria-describedby="lastnameHelp" name="lastname" placeholder="Enter last name.." required>
                  </div>
             </div>  
             <div class="row">   
                  <div class="form-group">
-                     <label for="email">User name</label>
-                     <input type="text" class="form-control" id="username" aria-describedby="emailHelp" name="username" placeholder="Enter email id.." required>
+                     <label for="username">User name</label>
+                     <input type="text" class="form-control" id="username" aria-describedby="usernamelHelp" name="username" placeholder="Enter username.." required>
                  </div>
                  
                  <div class="form-group ml-4">
-                     <label for="email">Email</label>
+                     <label for="emailid">Email</label>
                      <input type="email" class="form-control" id="emailid" aria-describedby="emailHelp" name="emailid" placeholder="Enter email id.." required>
                  </div>
             </div>
             <div class="row">     
                   <div class="form-group">
-                     <label for="email">Mobile</label>
-                     <input type="number" class="form-control" id="mobileno" aria-describedby="emailHelp" name="mobileno" placeholder="Enter mobile no.." required>
+                     <label for="mobileno">Mobile</label>
+                     <input type="number" class="form-control" id="mobileno" aria-describedby="mobilenoHelp" name="mobileno" placeholder="Enter mobile no.." required>
                  </div>
                  
                   <div class="form-group ml-4">
-                     <label for="name">Street</label>
-                     <input type="text" class="form-control" id="street" aria-describedby="emailHelp" name="street" placeholder="Enter email id.." required>
+                     <label for="street">Street</label>
+                     <input type="text" class="form-control" id="street" aria-describedby="streetHelp" name="street" placeholder="Enter street ..." required>
                  </div>
              </div>    
              <div class="row">
                  <div class="form-group">
-                     <label for="name">City</label>
-                     <input type="text" class="form-control" id="city" aria-describedby="emailHelp" name="city" placeholder="Enter city.." required>
+                     <label for="city">City</label>
+                     <input type="text" class="form-control" id="city" aria-describedby="cityHelp" name="city" placeholder="Enter city.." required>
                  </div>
                  
                  <div class="form-group   ml-4">
-                     <label for="email">Pin code</label>
-                     <input type="number" class="form-control" id="pincode" aria-describedby="emailHelp" name="pincode" placeholder="Enter pincode.." required>
+                     <label for="pincode">Pin code</label>
+                     <input type="number" class="form-control" id="pincode" aria-describedby="pincodeHelp" name="pincode" placeholder="Enter pincode.." required>
                  </div>
               </div>
               <div class="row">   
                  <div class="form-group">
                      <label for="password">Password</label>
-                     <input type="password" class="form-control" id="password" aria-describedby="emailHelp" name="password" placeholder="Enter password.." required>
+                     <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" name="password" placeholder="Enter password.." required>
                      <small id="passwordHelpInline" class="text-muted">
                         Must be 8-20 characters long.
                      </small>
                  </div>
                  
                  <div class="form-group  ml-4">
-                     <label for="password">Confirm Password</label>
-                     <input type="password" class="form-control" id="confirmpassword" aria-describedby="emailHelp" name="confirmpassword" placeholder="repeat password.." required>
+                     <label for="confirmpassword">Confirm Password</label>
+                     <input type="password" class="form-control" id="confirmpassword" aria-describedby="confirmpasswordHelp" name="confirmpassword" placeholder="repeat password.." required>
                  </div>
                </div>  
                 <div class="container text-center">

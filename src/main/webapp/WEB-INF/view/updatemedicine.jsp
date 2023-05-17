@@ -24,7 +24,7 @@
 
 <div class="container-fluid">
   <div class="row mt-2">
-       <div class="col-md-4 offset-md-4 admin" >
+       <div class="col-md-6 offset-md-4 admin" >
             <div class="card">
                 <%@ include file="./components/message.jsp"%>
                 <div class="card-body px-5">
